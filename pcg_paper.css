@@ -18,3 +18,13 @@ html {
     min-width: 640px;
     max-width: 960px;
 }
+
+body {
+    margin: 0px auto 0px auto 0px;
+}
+
+header img {
+    display: block;
+    width: 80%;
+    margin: 5px auto 0px auto;
+}
