@@ -43,31 +43,67 @@ img#blake {
 
 h1 {
     text-align: center;
+    color: rgb(46, 35, 14);
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+    text-decoration: underline;
+    color: rgb(46, 35, 14);
+}
+
+footer {
+    text-align: center;
+}
+
+section {
+    border-top: 2px solid black;
 }
 
 p {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    text-indent: 5%;
     width: 85%;
-    color: white;
+    color: rgb(228, 206, 177);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-li a {
-    display: block;
-    width: 5%;
+p#no-indent {
+    text-indent: 0px;
+}
+
+a {
+    color: black;
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(228, 206, 177);
+    text-decoration: none;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(228, 206, 177);
+}
+
+a:hover {
+    color: rgb(46, 35, 14);
+}
+
 ul {
+    text-align: center;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 5%;
+    padding-inline-start: 0px;
 }
 
 div.scrollmenu {
-    background-color: #333;
+    background-color: rgba(46, 35, 14, 0.829);
     overflow: auto;
     white-space: nowrap;
     width: 75%;
@@ -77,12 +113,19 @@ div.scrollmenu {
 
 div.scrollmenu a {
     display: inline-block;
-    color: white;
+    color: rgb(228, 206, 177);
     text-align: center;
     padding: 14px;
     text-decoration: none;
 }
 
 div.scrollmenu a:hover {
-    background-color: #777;
+    background-color: rgb(36, 27, 11);
+    color: rgb(250, 231, 206)
+}
+
+ul#group1 {
+    float: left;
+    clear: right;
+    width: 33%;
 }
